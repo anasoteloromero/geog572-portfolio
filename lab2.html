@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ana Sotelo Romero</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+
+    <!--put your Bootstrap stylesheet links below this comment and above style.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Create the navbar -->
+    <nav class="navbar navbar-expand-lg navbar-default">
+        <!-- Container inside the navbar header to span the page -->
+        <div class="container-fluid">
+            <!-- Creates the navbar header -->
+            <a class="navbar-brand" href="index.html">Ana Sotelo Romero</a>
+            <!-- This complex script is just for a hamburger button, which will appear on smaller screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+                <span class="menu"> Menu</span>
+            </button>
+            <!-- Links to include in navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Unordered list for links on navbar -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume/CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div> <!-- end .navbar-collapse -->
+        </div> <!-- end .container-fluid -->
+    </nav> <!-- end navigation bar -->  
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+
+                <h2 class="portfolio-title">Monet-Inspired Map</h2>
+                <p class="portfolio-description">
+                    Designed for GEOG 572, this map style draws inspiration from Claude Monet and the Impressionist art movement. I attempted to translate the paint techniques into a digital cartographic design. The basetile design emphasizes soft color gradients, brush-like patterns, and subtle border variations. The textures seen throughout the map are vectorized snashots of various paintings from Monet.
+                </p>
+                <p>
+        <!-- Embedded StoryMap -->
+                    <div class="storymap-link">
+            <p>
+                This project is also presented as an interactive ArcGIS StoryMap.
+            </p>
+            <p>
+                <a href="https://storymaps.arcgis.com/stories/ca45fe427cd046dda7ecbf3f80a26490"
+                target="_blank"
+                class="btn btn-primary">
+                View the Full StoryMap
+                </a>
+            </p>
+            <p>
+                Interact with the full map below to see how Monet’s textures and colors come together across different regions and scales!
+
+            </p>
+        </div>
+
+                </p>
+            </div>
+        </div>
+      
+        </div>
+    </div>
+<!-- Embedded StoryMap -->
+     
+    <!--put your external script links here-->
+<iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/anasotelo/cmhwqmabl006l01s75tm60p5t.html?title=false&access_token=pk.eyJ1IjoiYW5hc290ZWxvIiwiYSI6ImNtaDRha29saTBnNG8ycXE1dWRqcDFmMTgifQ.4sV4vc-umPDL8v4JUjbAOQ&zoomwheel=false#10.4/43.0836/-89.3898" title="Monet Map" style="border:none;"></iframe>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body></html>
